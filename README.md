@@ -31,14 +31,16 @@ Meu objetivo é desenvolver soluções reais, construir sistemas escaláveis e e
 
 <div align="center">
 
-<img height="170" alt="Estatísticas do GitHub de andsu77" src="https://github-readme-stats.vercel.app/api?username=andsu77&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1117&border_color=1E293B&title_color=60A5FA&text_color=94A3B8&icon_color=22C55E&ring_color=2563EB">
-<img height="170" alt="Linguagens mais usadas por andsu77" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andsu77&layout=compact&langs_count=6&bg_color=0D1117&border_color=1E293B&title_color=60A5FA&text_color=94A3B8">
-
 <img alt="Sequência de contribuições de andsu77" src="https://streak-stats.demolab.com?user=andsu77&background=0D1117&border=1E293B&stroke=1E293B&ring=2563EB&fire=22C55E&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=60A5FA&sideLabels=94A3B8&dates=94A3B8">
 
 <img alt="Resumo do perfil de andsu77" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=andsu77&theme=github_dark">
 
-<img alt="Gráfico de atividade de andsu77" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=andsu77&bg_color=0D1117&color=60A5FA&line=2563EB&point=22C55E&area=true&area_color=2563EB&hide_border=true">
+<img width="49%" alt="Estatísticas de andsu77" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=andsu77&theme=github_dark">
+<img width="49%" alt="Linguagens mais usadas em commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=andsu77&theme=github_dark">
+<img width="49%" alt="Repositórios por linguagem" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=andsu77&theme=github_dark">
+<img width="49%" alt="Horários mais produtivos" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=andsu77&theme=github_dark&utcOffset=-3">
+
+<img alt="Histórico de contribuições de andsu77" width="100%" src="https://ghchart.rshah.org/2563EB/andsu77">
 
 <br>
 
