@@ -89,6 +89,13 @@ A separação abaixo mostra o que já uso em projetos e o que ainda estou aprend
 </td>
 </tr>
 <tr>
+<td><b>Hardware</b><br><sub>Projeto SIMEQ</sub></td>
+<td>
+<img src="https://skillicons.dev/icons?i=arduino&theme=dark" alt="Arduino"><br>
+<sub>Arduino e sensores (incluindo sensor de pressão)</sub>
+</td>
+</tr>
+<tr>
 <td><b>Em aprendizado</b></td>
 <td>
 <img src="https://skillicons.dev/icons?i=fastapi,postgres,linux,java&theme=dark" alt="FastAPI, PostgreSQL, Linux, Java"><br>
@@ -105,6 +112,7 @@ A separação abaixo mostra o que já uso em projetos e o que ainda estou aprend
 - **Backend:** construção de APIs e integração entre sistemas (FastAPI em estudo).
 - **Banco de dados:** aprofundamento em SQL e PostgreSQL.
 - **Linux** e fundamentos de infraestrutura.
+- **Software e hardware:** Arduino e sensores, a partir do projeto SIMEQ.
 - **Próximos passos:** automação industrial, Internet das Coisas (IoT), MQTT, redes industriais e integração de sistemas.
 
 <img src="assets/divider.svg" width="100%" alt="">
