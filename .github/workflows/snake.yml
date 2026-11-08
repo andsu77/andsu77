@@ -1,0 +1,43 @@
+name: Gerar animação da cobra
+
+on:
+  # Execução diária (03:00 UTC)
+  schedule:
+    - cron: "0 3 * * *"
+  # Execução manual pela aba Actions
+  workflow_dispatch:
+  # Execução ao editar este workflow
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+# Permissão mínima: escrever apenas no conteúdo do repositório (branch output)
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Gerar e publicar SVGs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Gerar SVG da cobra a partir das contribuições
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
